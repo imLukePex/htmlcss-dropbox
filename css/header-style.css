@@ -8,10 +8,9 @@
 :root {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    background-color: blueviolet;
 }
 
-/* Header Styles */
+/* Top Bar Styles */
 header {
     background-color: #b4d0e7;
 }    
@@ -52,12 +51,13 @@ nav ul .menu-effect:hover {
 
 li a {
     text-decoration: none;
-    color: black;
+    color: #4d4d4d;
+    font-size: 17px;
 }
 
 .start-button {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     background-color: #0061ff;
     color: #ffffff;
     padding: 6px 15px;
@@ -67,15 +67,14 @@ li a {
 
 /* Jumbotron Styles */
 .jumbotron-container {
-    height: 600px;
+    height: 800px;
 }
 
 .jumbotron {
-    padding: 90px 0;
+    padding: 140px 0;
 }
 
 .jumbotron-center {
-    background-color: #ee82ee;
     max-width: 68%;
     height: 440px;
     margin: 0 auto;
@@ -85,3 +84,42 @@ li a {
     font-size: 30px;
     font-weight: bold;
 }
+
+.second-part {
+    display: flex;
+    margin: 50px 0;
+}
+
+.jumbotron-center .text {
+    width: 30%;
+    font-size: 18px;
+}
+
+.jumbotron-center .jumbotron-image {
+    width: 70%;
+    display: flex;
+}
+
+ .jumbotron-image img {
+    width: 900px;
+}
+
+.jumbotron-button {
+    margin: 30px 0;
+}
+
+.free-start {
+    padding: 12px;
+}
+
+.free-start:hover {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3)
+}
+
+.jumbotron-icon {
+    font-size: 40px;
+    margin-top: 90px;
+}
+
+
+
