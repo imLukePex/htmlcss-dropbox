@@ -67,7 +67,7 @@ li a {
 
 /* Jumbotron Styles */
 .jumbotron-container {
-    height: 800px;
+    height: 810px;
 }
 
 .jumbotron {
@@ -81,7 +81,7 @@ li a {
 }
 
 .jumbotron-center .title {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ li a {
 
 .jumbotron-icon {
     font-size: 40px;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 
