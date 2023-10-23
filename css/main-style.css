@@ -1,0 +1,53 @@
+/* First Section */
+section  {
+    padding: 110px 0;
+}
+
+section .main-center {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.main-center .section-title {
+    font-size: 28px;
+    padding-bottom: 60px;
+}
+
+.main-center .check-radio {
+    font-size: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.check-radio input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    padding: 50px 0;
+}
+
+.col {
+    width: calc(100% / 3);
+    margin-right: 55px;
+    height: 800px;
+    border: 2px solid rgb(194, 194, 194);
+}
+
+.box-title {
+    width: 100%;
+    height: 43px;
+    border-bottom: 2px solid rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-title {
+    font-size: 16px;
+}
