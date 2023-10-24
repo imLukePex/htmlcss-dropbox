@@ -29,15 +29,18 @@ section .main-center {
     cursor: pointer;
 }
 
-.row {
+.first-row {
     display: flex;
     padding: 50px 0;
 }
 
-.col {
+.first-row .col {
     width: calc(100% / 3);
-    margin-right: 55px;
     border: 2px solid rgb(194, 194, 194);
+}
+
+.middle {
+    margin: 0 55px;
 }
 
 .col:hover {
@@ -128,4 +131,19 @@ li i {
 
 .plan .fa-check {
     color: #0668ff;
+}
+
+.second-row {
+    display: flex;
+    height: 400px;
+}
+
+.second-row .col {
+    width: calc(100% / 3);
+    border: 2px solid rgb(194, 194, 194);
+}
+
+.second-row .col-center {
+    width: 80%;
+    margin: 35px auto;
 }
