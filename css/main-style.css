@@ -135,15 +135,20 @@ li i {
 
 .second-row {
     display: flex;
-    height: 400px;
+    height: 300px;
 }
 
 .second-row .col {
-    width: calc(100% / 3);
+    width: 100%;
     border: 2px solid rgb(194, 194, 194);
 }
 
 .second-row .col-center {
-    width: 80%;
+    width: 95%;
     margin: 35px auto;
+}
+
+.second-row #offert {
+    display: flex;
+    justify-content: space-between;
 }
