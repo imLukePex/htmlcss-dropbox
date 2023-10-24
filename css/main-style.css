@@ -63,7 +63,7 @@ section .main-center {
 
 .col .col-center {
     width: 80%;
-    margin: 35px auto;
+    padding: 35px auto;
 }
 
 .col-center .col-header {
@@ -145,7 +145,7 @@ li i {
 
 .second-row .col-center {
     width: 95%;
-    margin: 35px auto;
+    padding: 35px auto;
 }
 
 .second-row #offert {
