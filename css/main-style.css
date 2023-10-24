@@ -1,4 +1,4 @@
-/* First Section */
+/* General Main Styles */
 section  {
     padding: 110px 0;
 }
@@ -8,11 +8,13 @@ section .main-center {
     margin: 0 auto;
 }
 
+/* Section Styles */
 .main-center .section-title {
     font-size: 28px;
     padding-bottom: 60px;
 }
 
+/* First Section */
 .main-center .check-radio {
     font-size: 16px;
     vertical-align: middle;
@@ -35,8 +37,12 @@ section .main-center {
 .col {
     width: calc(100% / 3);
     margin-right: 55px;
-    height: 800px;
     border: 2px solid rgb(194, 194, 194);
+}
+
+.col:hover {
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
 }
 
 .box-title {
@@ -50,4 +56,76 @@ section .main-center {
 
 .col-title {
     font-size: 16px;
+}
+
+.col .col-center {
+    width: 80%;
+    margin: 35px auto;
+}
+
+.col-center .col-header {
+    margin-bottom: 50px;
+}
+
+.col-header #offert {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.col-header #price {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.col-header #frequency {
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.col-center ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+ul li {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+li i {
+    margin-right: 4px;
+}
+
+.offers-button {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.offers-button .free-trial {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 15px;
+}
+
+.purchase {
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 50px;
+    height: 15px;
+    border-bottom: 2px solid rgb(194, 194, 194);
+    margin-bottom: 45px;
+}
+
+.plan .plan-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan .fa-check {
+    color: #0668ff;
 }
