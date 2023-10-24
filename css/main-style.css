@@ -1,6 +1,6 @@
 /* General Main Styles */
 section  {
-    padding: 110px 0;
+    padding-top: 110px;
 }
 
 section .main-center {
@@ -9,7 +9,7 @@ section .main-center {
 }
 
 /* Section Styles */
-.main-center .section-title {
+.first-section .section-title {
     font-size: 28px;
     padding-bottom: 60px;
 }
@@ -29,22 +29,22 @@ section .main-center {
     cursor: pointer;
 }
 
-.row {
+.first-section .row {
     display: flex;
-    padding: 50px 0;
+    padding-top: 50px;
     margin: 0 -28px;
 }
 
-.col-box {
+.first-section .col-box {
     width: calc(100% / 3);
     padding: 0 28px;
 }
 
-.row .col {
+.first-section .col {
     border: 2px solid rgb(194, 194, 194);
 }
 
-.col:hover {
+.first-section .col:hover {
     box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1); 
     cursor: pointer;
 }
@@ -70,19 +70,19 @@ section .main-center {
     margin-bottom: 50px;
 }
 
-.col-header #offert {
+.col-header .offert {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
-.col-header #price {
+.col-header .price {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.col-header #frequency {
+.col-header .frequency {
     font-size: 15px;
     color: rgb(114, 114, 114);
 }
@@ -133,22 +133,103 @@ li i {
     color: #0668ff;
 }
 
-.second-row {
-    display: flex;
-    height: 300px;
-}
-
-.second-row .col {
+.row .team-offer {
     width: 100%;
-    border: 2px solid rgb(194, 194, 194);
 }
 
-.second-row .col-center {
-    width: 95%;
-    padding: 35px auto;
-}
-
-.second-row #offert {
+.offert {
     display: flex;
     justify-content: space-between;
 }
+
+.col-header .team-price {
+    margin-bottom: 60px;
+}
+
+.col-center .team-box {
+    margin: 0;
+}
+
+/* Second Section */
+.second-section {
+    padding-top: 150px;
+}
+
+section .display-section {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-side {
+    width: 60%;
+}
+
+.right-side {
+    width: 40%;
+    padding: 50px;
+}
+
+.box-partner-img img {
+    width: 100%;
+}
+
+.right-side h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.right-side p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.right-side .search-partner-button {
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 17px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.right-side .search-partner-button:hover {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Third Section */
+.third-section {
+    padding-top: 160px;
+}
+
+.third-section .section-title {
+    font-size: 28px;
+    padding-bottom: 60px;
+}
+
+.third-section .row {
+    display: flex;
+    margin: 0 -28px;
+    margin-bottom: 30px;
+}
+
+.col-box {
+    width: calc(100% / 3);
+    padding: 0 28px;
+}
+
+.dropbox-business .business-image {
+    width: 90%;
+}
+
+.third-section h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.third-section p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+
+
