@@ -32,15 +32,16 @@ section .main-center {
 .first-row {
     display: flex;
     padding: 50px 0;
+    margin: 0 -28px;
+}
+
+.col-box {
+    width: calc(100% / 3);
+    padding: 0 28px;
 }
 
 .first-row .col {
-    width: calc(100% / 3);
     border: 2px solid rgb(194, 194, 194);
-}
-
-.middle {
-    margin: 0 55px;
 }
 
 .col:hover {
