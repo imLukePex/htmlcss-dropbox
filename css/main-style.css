@@ -42,6 +42,7 @@ section .main-center {
 
 .first-section .col {
     border: 2px solid rgb(194, 194, 194);
+    height: 100%;
 }
 
 .first-section .col:hover {
