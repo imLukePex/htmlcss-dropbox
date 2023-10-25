@@ -35,7 +35,8 @@ nav ul li {
 }
 
 nav ul .menu-effect:hover {
-    background-color: #0028673d;
+    background-color: #2579ff3d;
+    border-bottom: 3px solid black;
 }
 
 li a {
